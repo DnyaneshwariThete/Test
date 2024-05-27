@@ -1,0 +1,15 @@
+let employee =
+{
+    empname:"Dnyan",
+    empId:123,
+    profile:"Tester",
+    basicsal:50000,
+    bonus:function()
+    {
+        return((this.basicsal*10)/100);
+    }
+
+};
+
+console.log(employee.empId);
+console.log(employee.bonus());
